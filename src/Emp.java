@@ -3,7 +3,7 @@ public class Emp  {
 private String Name;
 private long phone;
 private int empid;
-
+//Overriding
 @Override
 public String toString() {
 	return "Emp [Name=" + Name + ", phone=" + phone + ", empid=" + empid + "]";
